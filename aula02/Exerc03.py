@@ -1,9 +1,4 @@
-from traceback import print_tb
+num = int(input('Digite um númuro: '))
+x = num ** 2  # Dois asterisco eleva o número 
 
-
-n1 = int(input('Digite um número: '))
-
-if  n1 % 2 == 0:
-    print('O número é par')
-else :
-    print('O número é ímpar')
+print('O quadrado do',num,'informado é:', x)

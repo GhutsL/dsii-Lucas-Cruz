@@ -1,9 +1,3 @@
-n1 = int(input('Digite sua nota: '))
-n2 = int(input('Digite sua nota: '))
+num = int(input('Digite um número: '))
 
-
-if n1 == n2:
-    print(f'Os números informados são iguais {n1}')
-else:
-    print(f'Os números informados são diferentes ')
-
+print('O sucessor desse número é:',num + 1,'e o antecessor é:', num - 1)

@@ -1,11 +1,9 @@
-n1 = int(input("Digite o primeiro número: "))
-n2 = int(input("Digite o segundo número: "))
+n1 = int(input('Digite sua nota: '))
+n2 = int(input('Digite sua nota: '))
+n3 = int(input('Digite sua nota: '))
 
-if n1 > n2:
-    print(f"O maior número é: {n1}")
-    print(f"O menor número é: {n2}")
-elif n2 > n1:
-    print(f"O maior número é: {n2}")
-    print(f"O menor número é: {n1}")
-else:
-    print("Os dois números são iguais.")
+media =  (n1 + n2 + n3) / 3
+
+print('A média da sua nota é: ', media)
+
+# G * M1 * M2 / d^2 
